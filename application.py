@@ -16,7 +16,7 @@ class Storage():
   def __init__(self):
     self.db = MySQLdb.connect(
       # Fields (user, passwd, db) have fixed values provided by image daocloud/ci-mysql
-      # While fields (host, port) have dynamic values, please use env var to fetch them
+      # While fields (host, port) have dynamic values, please use env var to fetch them d
       user   = 'u7bPCrul96x0BGTp',
       passwd = 'pboRDpeCmxH1tyBIj',
       db     = 'TZv1uzanFSdtgCiA',
