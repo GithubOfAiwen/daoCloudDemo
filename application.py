@@ -17,9 +17,9 @@ class Storage():
     self.db = MySQLdb.connect(
       # Fields (user, passwd, db) have fixed values provided by image daocloud/ci-mysql
       # While fields (host, port) have dynamic values, please use env var to fetch them d
-      user   = 'u7bPCrul96x0BGTp',
-      passwd = 'pboRDpeCmxH1tyBIj',
-      db     = 'TZv1uzanFSdtgCiA',
+      user   = 'root',
+      passwd = '',
+      db     = 'test',
       host   = os.getenv('MYSQL_PORT_3306_TCP_ADDR'),
       port   = int(os.getenv('MYSQL_PORT_3306_TCP_PORT'))
     )
